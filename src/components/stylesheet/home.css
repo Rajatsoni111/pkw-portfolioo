@@ -1,0 +1,724 @@
+/* show-boxes */
+#more-button {
+    display: none;
+}
+
+#boxes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#outer-box {
+    width: 80%;
+    display: flex;
+}
+
+.show-boxes {
+    display: flex;
+    width: 33.3%;
+    flex-direction: column;
+}
+
+.show-box {
+    border: 0px solid transparent;
+    border-radius: 50px;
+    width: 80%;
+    height: 20%;
+    margin: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: white;
+    /* border: #000000 solid; */
+}
+
+/* individual boxes  */
+#show-box-1 {
+    background-color: #737373;
+}
+
+#show-box-2 {
+    background-color: #a7a7a7;
+    height: 27rem;
+}
+
+#show-box-5 {
+    background-color: #737373;
+    background-size: cover;
+}
+
+#show-box-4 {
+    background-color: #a7a7a7;
+    height: 30rem;
+}
+
+#show-box-6 {
+    background-color: #737373;
+    height: 13.5rem;
+}
+
+#show-box-7 {
+    background-color: #737373;
+    height: 13.5rem;
+}
+
+#show-box-8 {
+    background-color: #a7a7a7;
+    height: 13.5rem;
+}
+
+#show-box-9 {
+    background-color: #737373;
+    height: 30rem;
+}
+
+#boxes .skill {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+/* Review-box */
+
+#review-box {
+    width: 100%;
+    height: 650px;
+    background-color: #d9d9d9;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#review-box h1 {
+    width: 100%;
+    text-align: start;
+    /* border: #000000 solid; */
+}
+
+#reviews {
+    width: 75%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    overflow: hidden;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-track {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease;
+    gap: 30px;
+}
+
+.carousel-item {
+    width: 33%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: transform 0.3s, width 0.3s, height 0.3s;
+    flex-shrink: 0;
+}
+
+.active {
+    transform: scale(1.2);
+}
+
+.review {
+    width: 20rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+#review-box .client {
+    height: fit-content;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    /* border: solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+#review-box .profile {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #737373;
+    margin-right: 1rem;
+    border-radius: 100px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#review-box .profile img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    /* display: none; */
+}
+
+#review-box .name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: start;
+    color: #242424;
+}
+
+#review-box .review-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #242424;
+    margin: 0.7rem 2rem 2rem 2rem;
+    font-style: italic;
+    text-align: start;
+}
+#review-box .swipe-text{
+    display: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* border: solid black; */
+}
+#crousel-arrows {
+    margin-top: 25%;
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* About Section  */
+
+#About {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+
+}
+
+.profile_photo {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 500px;
+    margin-right: 3rem;
+
+}
+
+#About .description {
+    width: 30rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+
+#myname {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #242424;
+    /* background-color: aqua; */
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+#designation {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #242424;
+    /* background-color: fuchsia; */
+    margin-top: 0%;
+    margin-bottom: 1rem;
+}
+
+#written {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #242424;
+    /* background-color: lime; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#read_more {
+    background-color: #242424;
+    font-size: 24px;
+    border-radius: 50px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#read_more:hover {
+    background-color: #0d0d0d;
+    box-shadow: none;
+    transform: translate(0px, 5px);
+}
+
+#read_more:active {
+    background-color: #0d0d0d;
+    box-shadow: 0px 10px 6px #d9d9d9;
+    transform: translate(0px, 0px);
+}
+
+@media screen and (max-width:1200px) {
+
+    /* individual boxes  */
+    .show-box {
+        font-size: 1.5rem;
+    }
+
+    #show-box-2 {
+        height: 27rem;
+    }
+
+    #show-box-5 {
+        background-size: cover;
+    }
+
+    #show-box-4 {
+        height: 30rem;
+    }
+
+    #show-box-6 {
+        height: 13.5rem;
+    }
+
+    #show-box-7 {
+        height: 13.5rem;
+    }
+
+    #show-box-8 {
+        height: 13.5rem;
+    }
+
+    #show-box-9 {
+        height: 30rem;
+    }
+
+    .skill {
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    /* reviews */
+    #review-box {
+        height: 600px;
+    }
+
+    .review {
+        width: 15rem;
+        height: 15rem;
+        background-color: white;
+        border-radius: 50px;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+
+    #review-box .name {
+        font-size: 20px;
+    }
+
+    #review-box .review-text {
+        font-size: 15px;
+    }
+
+    #review-box .profile {
+        width: 40px;
+        height: 40px;
+    }
+
+    #review-box .client {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #reviews {
+        width: 75%;
+        height: 75%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        overflow: hidden;
+
+    }
+
+    .carousel {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .carousel-track {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        transition: transform 0.5s ease;
+        gap: 30px;
+    }
+
+    .carousel-item {
+        width: 30%;
+        height: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        transition: transform 0.3s, width 0.3s, height 0.3s;
+        flex-shrink: 0;
+    }
+
+    #crousel-arrows {
+        margin-top: 30%;
+        width: 80%;
+
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    /* About */
+    #About {
+        flex-direction: column;
+    }
+
+    #read_more {
+        padding: 5px 10px;
+        font-size: 15px;
+        width: fit-content;
+        height: fit-content;
+        background-color: #242424;
+    }
+
+    /* show-boxes */
+
+    #boxes {
+        width: 100%;
+        height: fit-content;
+        margin-top: 50px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        /* border: solid black; */
+    }
+
+    #more-button {
+        display: flex;
+        margin-top: 20px;
+        padding: 5px 30px;
+        width: fit-content;
+        font-size: 20px;
+        background-color: #000000;
+        border-radius: 20px;
+        color: white;
+    }
+
+    #outer-box {
+        width: 90%;
+        height: 22rem;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .show-boxes {
+        display: flex;
+        width: 48%;
+        height: 35rem;
+        flex-direction: column;
+        /* border: blue solid; */
+        align-items: center;
+
+    }
+
+    .show-box {
+        border: 0px solid transparent;
+        border-radius: 20px;
+        width: 90%;
+        height: 20%;
+        margin: 0rem;
+        margin-top: 15px;
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #show-boxes-1 {
+        margin-top: 100%;
+    }
+
+    #show-boxes-3 {
+        width: 48%;
+        position: absolute;
+        /* margin-top: 31dvh; */
+    }
+
+    /* individual boxes  */
+    #show-box-1 {
+        margin-top: 0px;
+        width: 90%;
+        height: 8rem;
+    }
+
+    #show-box-2 {
+        width: 90%;
+        height: 6rem;
+    }
+
+    #show-box-5 {
+        background-size: cover;
+        height: 30%;
+    }
+
+    #show-box-4 {
+        margin-top: 0px;
+        height: 30%;
+    }
+
+    #show-box-6 {
+        height: 30%;
+    }
+
+    #show-box-7 {
+        margin-top: 0px;
+        width: 90%;
+        height: 8rem;
+
+    }
+
+    #show-box-8 {
+        height: 6rem;
+    }
+
+    #show-box-9 {
+        height: 6rem;
+    }
+
+    .skill {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+
+    /* About Section  */
+
+    #About {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px 50px 0px;
+    }
+
+    #About .profile_photo {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+        margin-right: 0rem;
+    }
+
+    #About .description {
+        width: 90%;
+        margin-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #designation {
+        font-size: 36px;
+
+    }
+
+    #written {
+        width: 100%;
+        height: 40%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        color: #242424;
+        /* background-color: lime; */
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Review-box */
+
+
+    #review-box h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+    }
+
+    #crousel-arrows {
+        margin-top: 80%;
+        width: 90%;
+
+    }
+    #review-box {
+        width: 100%;
+        height: fit-content;
+        background-color: #d9d9d9;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+    #review-box .swipe-text{
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 20px;
+        /* border: solid black; */
+    }
+    #reviews {
+        width: 700px;
+        height: 35dvh;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        overflow: hidden;
+    }
+
+    .carousel {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-track {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        transition: transform 0.5s ease;
+        gap: 30px;
+    }
+
+    .carousel-item {
+        width: 187px;
+        height: 100%;
+        /* border: blue solid; */
+    }
+
+    .carousel-item.active {
+        transform: scale(1.2);
+    }
+
+    .review {
+        width: 30%;
+        height: 187px;
+        background-color: white;
+        border-radius: 30px;
+        padding:0px 10px;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+
+    #review-box .client {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+
+    #review-box .profile {
+        width: 2rem;
+        height: 2rem;
+        background-color: #737373;
+        align-self: start;
+        margin-left: 1rem;
+        border-radius: 100px;
+    }
+
+    #review-box .profile img {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+
+    #review-box .name {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        align-self: center;
+        color: #242424;
+    }
+
+    #review-box .review-text {
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        color: #242424;
+        margin: 0.7rem 0rem 2rem 0rem;
+        font-style: italic;
+        text-align: start;
+        /* border: #000000 solid; */
+    }
+
+    #crousel-arrows {
+        margin-top: 25%;
+        width: 80%;
+        height: 40px;
+        position: absolute;
+        /* border: solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        display: none;
+
+    }
+
+}

@@ -1,0 +1,247 @@
+.profile {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #282828;
+    color: #F89A1C;
+    font-size: 125px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0%;
+    margin: 0px 0px 12px 0px;
+    /* border: #282828 solid; */
+
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0%;
+    margin: 0px 0px 12px 0px;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+    margin: 0px 3px 0px 3px;
+
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 12px 0px 12px 0px;
+
+}
+
+#reviews-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: #F89A1C solid; */
+}
+
+#reviews-section .section {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* border: #282828 solid; */
+}
+
+.section:hover {
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.feedback {
+
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 35px 0px 25px;
+
+}
+
+#P2 {
+    width: 700px;
+    height: 76px;
+    margin-top: 124px;
+}
+
+#Q1 {
+    width: 700px;
+    height: 160px;
+    margin-top: 70px;
+    margin-right: 30px;
+    text-align: end;
+}
+
+#T11 {
+    width: 700px;
+    height: 140px;
+    margin-top: 80px;
+}
+
+#T12 {
+    width: 700px;
+    height: 140px;
+    margin-top: 20px;
+
+}
+
+#T13 {
+    width: 700px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+#S1 {
+    width: 700px;
+    height: 140px;
+    margin-top: 80px;
+    margin-right: 30px;
+    text-align: end;
+}
+
+
+.Multiple {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width:700px) {
+    #reviews-section {
+        margin-top: 30px;
+    }
+    #reviews-section .section{
+        width: 100%;
+        align-items: start;
+        justify-content: center;
+        /* border: black solid; */
+        margin: 10px;
+    }
+    .client{
+        width: 40%;
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .circle{
+        width: 100px;
+        height: 100px;
+        border-radius:50% ;
+        background-color: #282828;
+        /* border: red solid; */
+    }
+    .name{
+        margin: 0px;
+        font-size: 16px;
+    }
+    .star{
+        width: 16px;
+        height: 16px;
+    }
+    .profile{
+        width: 100%;
+        height: 100%;
+        font-size: 40px;
+    }
+    .feedback{
+        top: 0px;
+        width: 50%;
+        font-size: 12px;
+        margin: 0;
+    }
+    .text{
+        /* width: 100%; */
+        font-size:12px ;
+        margin: 0;
+        padding: 0px 10px;
+        text-align: start;
+
+    }
+    #P2 {
+        width: 50%;
+        height: 76px;
+        margin-top: 0px;
+    }
+    
+    #Q1 {
+        width: 50%;
+        height: 160px;
+        margin: 0px;
+        margin-top: 00px;
+        text-align: center; 
+    }
+    
+    #T11 {
+        width: 90%;
+        height: 140px;
+        margin-top: 0px;
+    }
+    
+    #T12 {
+        width: 90%;
+        height: 140px;
+        /* margin: 0px 0px 0px 0px; */
+        margin-top: 20px;
+    
+    }
+    
+    #T13 {
+        width: 90%;
+        height: 200px;
+        margin-top: 20px;
+    
+    }
+    
+    #S1 {
+        width: 50%;
+        height: 140px;
+        margin: 0px;
+        margin-top: 0px;
+        text-align: end;
+    }
+    
+    
+    .Multiple {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+}

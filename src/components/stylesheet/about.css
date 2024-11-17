@@ -1,0 +1,289 @@
+/* Photo and name */
+
+#photo_n_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 15vw 50px 15vw;
+
+}
+
+#profile {
+    width: 50%;
+}
+
+#name {
+    width: 45%;
+}
+
+/* About me section  */
+
+#aboutme {
+    background-color: #D9D9D9;
+    padding: 50px 10vw 50px 10vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.heading {
+    margin: 0;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #282828;
+
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
+.link {
+    width: 45px;
+    margin: 0px 25px 0px 25px;
+
+}
+
+#aboutme .description {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #282828;
+}
+
+/* experience section  */
+
+#exp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+    padding-bottom: 50px;
+
+}
+
+.xp .description{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #282828;
+}
+.xp {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    margin: 50px 0px 0px 0px;
+    padding: 30px 30px 30px 30px;
+}
+
+.head2 {
+    color: #282828;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.subhead2 {
+    margin: 0;
+    color: #282828;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* skills and software  */
+
+.Skills {
+    padding: 0px 0px 0px 0px;
+
+}
+
+.line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.arranged .skill {
+    color: #FFFFFF;
+    background-color: #282828;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    margin: 10px 0px 10px 0px;
+    padding: 15px 15px 15px 15px;
+    width: fit-content;
+}
+
+.line-1 {
+    align-items: start;
+}
+
+.line-2 {
+    align-items: center;
+}
+
+.line-3 {
+    align-items: end;
+}
+
+
+.arranged {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 15vw 0px 15vw;
+
+}
+
+.skills-2 {
+    display: none;
+}
+
+.sf-Skills {
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    #photo_n_name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutme .description {
+        font-size: 16px;
+    }
+
+    /* experience */
+    #exp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        padding-bottom: 0px;
+    }
+
+    .xp {
+        width: 80%;
+
+    }
+
+    /* about */
+
+    #aboutme {
+        overflow: hidden;
+    }
+
+    /* Skills */
+
+    .arranged {
+        /* width: 90%; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 5vw 0px 5vw;
+
+    }
+
+    .line {
+        flex-direction: column;
+        /* gap: 20px; */
+    }
+
+    .Skills {
+        display: none;
+    }
+
+    .skill {
+        font-size: 10px;
+
+    }
+
+    .skills-2 {
+        width: 100%;
+        /* border: solid black; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .skill-2 {
+        width: 90%;
+        display: flex;
+        background-color: #D9D9D9;
+        border-radius: 20px;
+        margin-top: 10px;
+        font-weight: bold;
+
+    }
+
+    .skill-2 p {
+        font-size: 20px;
+        width: 50%;
+        padding: 10px 20px;
+    }
+
+    .skill-2 .p3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill-2 .p2 {
+        text-align: end;
+    }
+
+    
+    .sf-Skills {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+    .sf-Skills .skill {
+        font-size: 20px;
+        background-color: #D9D9D9;
+        width: 90%;
+        display: flex;
+        border-radius: 20px;
+        margin-top: 10px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .sf-Skills .skill p{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+}
